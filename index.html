@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de gorjeta</h2>
+        <label for="billAmount">Valor da conta: </label>
+        <input type="text" id="billAmount" name="billAmount" placeholder="R$">
+        <label for="serviceQuality">Qualidade do serviço: </label>
+        <select name="" id="serviceQuality">
+            <option value="0.1">Excelente 10%</option>
+            <option value="0.08">Ótimo 8%</option>
+            <option value="0.05">Bom 5%</option>
+            <option value="0.02">Ruim 2%</option>
+        </select>
+        <button id="calculateBtn">Calcular a gorjeta</button>
+        <br>
+        <hr>
+        <div class="result">
+            <label for="tipAmount">Valor da gorjeta: </label>
+            <input type="text" id="tipAmount" class="tipAmount" disabled>
+            <label for="totalAmount">Valor total: </label>
+            <input type="text" id="totalAmount" class="totalAmount" disabled>
+        </div>
+    </div>
+</body>
+</html>
